@@ -71,3 +71,4 @@ jobs:
           PYTHON-SUM-TEST_RESULTS: "${{ steps.python-sum-test.outputs.result }}"
         with:
           runners: divisibility-test, sum-test, python-divisibility-test, python-sum-test
+runners: python-divisibility-test,python-sum-test
